@@ -228,6 +228,33 @@ http://localhost:8080/MR2_VIBE_V2/
 
 ---
 
+### Environment: UAT vs Production
+
+Aplikasi MR2 memiliki **dua mode login** yang dibedakan berdasarkan environment:
+
+| Environment | Login Page | Metode Otentikasi | Penggunaan |
+|-------------|-----------|-------------------|------------|
+| **UAT / Development** | `login_nonldap.jsp` | Database `t_user` (MD5 hash) | Pengembangan & UAT internal |
+| **Production (Live)** | `login.jsp` | LDAP Active Directory (`10.55.60.223:389`) | Production - user Bank Muamalat |
+
+#### UAT (`login_nonldap.jsp`)
+- **URL:** `/MR2_VIBE_V2/` (default)
+- Autentikasi via tabel database `t_user`
+- Password di-hash dengan MD5
+- Cocok untuk development, testing, dan internal demo
+
+#### Production (`login.jsp`)
+- **URL:** `/MR2_VIBE_V2/views/login.jsp`
+- Autentikasi via **LDAP Active Directory** Bank Muamalat
+- Server AD: `ldap://10.55.60.223:389`, Base DN: `OU=Users,OU=Accounts,DC=bankmuamalat,DC=co,DC=id`
+- Cocok untuk live production - user login dengan credentials AD masing-masing
+
+> **Catatan:** Saat deployment ke production, pastikan `index.jsp` (atau mekanisme redirect) mengarahkan user ke `login.jsp` (bukan `login_nonldap.jsp`). Jangan lupa nonaktifkan akses ke halaman UAT di production.
+
+
+
+---
+
 ## ?? Konfigurasi Tambahan
 
 ### Parameter Aplikasi (`t_param` table)

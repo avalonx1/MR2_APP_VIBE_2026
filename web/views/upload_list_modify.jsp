@@ -346,7 +346,7 @@
                         
                         
                         
-                        <button id="UploadBtn" type="button" class="btn btn-block btn-primary" value="Upload" data-toggle="tooltip" data-placement="right" title="" data-original-title="Click to submit" onclick="return openPage_upload('upload_list_upload.jsp?p_sub=<%=v_sub_rpt%>&p_main=<%=v_main_rpt%>&p_name=<%=v_nama_laporan%>&p_month=<%=v_month%>&p_institusi=<%=v_institusi%>&p_file=<%=v_file%>&p_path=<%=v_path%>&p_nik=<%=v_nik_upload%>')"><span class="fa fa-external-link" aria-hidden="true"></span> Upload File & Confirm</button>
+                        <button id="UploadBtn" type="button" class="btn btn-block btn-primary" value="Upload" data-toggle="tooltip" data-placement="right" title="" data-original-title="Click to submit" onclick="return openPage_upload('<%=request.getContextPath()%>/UploadPopup?p_sub=<%=v_sub_rpt%>&p_main=<%=v_main_rpt%>&p_name=<%=v_nama_laporan%>&p_month=<%=v_month%>&p_institusi=<%=v_institusi%>&p_file=<%=v_file%>&p_path=<%=v_path%>&p_nik=<%=v_nik_upload%>')"><span class="fa fa-external-link" aria-hidden="true"></span> Upload File & Confirm</button>
                         <!--<button id="UploadBtn" type="button" class="btn btn-primary btn-block" onclick="return popup()" value="Upload"><span class="fa fa-upload" aria-hidden="true"></span> Upload File Development</button>-->
                         <!--<button id="UploadBtn" type="button" class="btn btn-block btn-danger" value="Upload" data-toggle="tooltip" data-placement="right" title="" data-original-title="Click to submit" onclick=""><span class="fa fa-external-link" aria-hidden="true"></span> Upload Popup Test</button>-->
                         
