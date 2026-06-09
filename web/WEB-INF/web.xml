@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>Upload_File</servlet-name>
+        <servlet-class>Upload_File</servlet-class>
+    </servlet>
+<!--    <servlet>
+        <servlet-name>Download_Fix</servlet-name>
+        <servlet-class>Download_Fix</servlet-class>
+    </servlet>-->
+    <servlet-mapping>
+        <servlet-name>Upload_File</servlet-name>
+        <url-pattern>/Upload_File</url-pattern>
+    </servlet-mapping>
+    <!--========================================-->
+    <!--    <servlet>
+        <servlet-name>UploadFix2</servlet-name>
+        <servlet-class>UploadFix2</servlet-class>
+    </servlet>
+    
+    <servlet>
+          <servlet-name>Download1</servlet-name>
+        <servlet-class>Download1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadFix2</servlet-name>
+        <url-pattern>/UploadFix2</url-pattern>
+    </servlet-mapping>
+
+     <servlet-mapping>
+        <servlet-name>Download1</servlet-name>
+        <url-pattern>/Download1</url-pattern>
+    </servlet-mapping>-->
+    <!--==================-->
+    <!--    <servlet>
+        <servlet-name>UploadServlet_Dev</servlet-name>
+        <servlet-class>UploadServlet_Dev</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet_Dev</servlet-name>
+        <url-pattern>/UploadServlet_Dev</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet>
+        <servlet-name>DownloadFix</servlet-name>
+        <servlet-class>DownloadFix</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DownloadFix</servlet-name>
+        <url-pattern>/DownloadFix</url-pattern>
+    </servlet-mapping>-->
+    <!--    <servlet>
+        <servlet-name>Download1</servlet-name>
+        <servlet-class>Download1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Download1</servlet-name>
+        <url-pattern>/Download1</url-pattern>
+    </servlet-mapping>-->
+<!--    <servlet>
+        <servlet-name>Upload_File</servlet-name>
+        <servlet-class>Upload_File</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Upload_File</servlet-name>
+        <url-pattern>/Upload_File</url-pattern>
+    </servlet-mapping>-->
+
+    <session-config>
+        <session-timeout>
+        30
+        </session-timeout>
+    </session-config>
+    <!--    <error-page>
+    <error-code>500</error-code>
+    <location>/error.jsp</location>
+</error-page>-->
+</web-app>
