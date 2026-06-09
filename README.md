@@ -1,4 +1,4 @@
-# ?? MR2 - Muamalat Report Reminder App (VIBE V2)
+# MR2 - Muamalat Report Reminder App (VIBE V2) 2026
 
 > **Internal Report Tracking & Reminder System - Bank Muamalat Indonesia**
 
@@ -66,11 +66,11 @@ Aplikasi ini mencakup modul **Report Upload/Download**, **CRM Leads Management**
 |-------|-----------|---------|
 | **Frontend** | HTML5, CSS3, JavaScript, JSP 2.3 | - |
 | **CSS Framework** | Bootstrap 3 + Gentelella Admin Theme | 3.x |
-| **JavaScript Libraries** | jQuery, DataTables, PNotify, Select2, Chart.js, Flot, ECharts, Moment.js, FullCalendar, Parsley.js, Smart Wizard, dll. (ñ69 vendor packages) | - |
+| **JavaScript Libraries** | jQuery, DataTables, PNotify, Select2, Chart.js, Flot, ECharts, Moment.js, FullCalendar, Parsley.js, Smart Wizard, dll. (Ã±69 vendor packages) | - |
 | **Backend** | Java Servlet 3.1, Java EE 7 Web Profile | Java 1.8 |
 | **App Server** | GlassFish 4.x | Java EE 7 |
 | **Database** | PostgreSQL | - |
-| **Build Tool** | Apache Ant (via NetBeans IDE) | ò 1.6.5 |
+| **Build Tool** | Apache Ant (via NetBeans IDE) | Ã² 1.6.5 |
 | **IDE** | NetBeans | 8.x / 12.x |
 | **Version Control** | Git + GitHub | - |
 
@@ -96,60 +96,60 @@ Aplikasi ini mencakup modul **Report Upload/Download**, **CRM Leads Management**
 
 ```
 MR2_VIBE_V2/
-ÃÄÄ build.xml                     # Ant build script
-ÃÄÄ .gitignore                    # Git ignore rules
-ÃÄÄ build/                        # Build output (compiled classes, generated)
-ÃÄÄ build_bkp/                    # Build backup
-ÃÄÄ dist/                         # Distribution (WAR output)
-ÃÄÄ jar/                          # Local JAR dependencies
-ÃÄÄ nbproject/                    # NetBeans project config
-³   ÃÄÄ project.properties        # Build properties
-³   ÃÄÄ project.xml               # NetBeans project descriptor
-³   ÀÄÄ private/                  # IDE user settings (gitignored)
-ÃÄÄ setup/
-³   ÀÄÄ sun-resources.xml         # GlassFish JDBC Connection Pool & JNDI config
-ÃÄÄ src/
-³   ÀÄÄ java/
-³       ÃÄÄ Database/
-³       ³   ÀÄÄ Database.java     # Core DB connection (JNDI lookup)
-³       ÀÄÄ Engines/
-³           ÃÄÄ auth.java         # Auth, params, maintenance, utilities
-³           ÃÄÄ ldapActiveDirectory.java  # LDAP authentication
-³           ÃÄÄ notification.java # In-app notifications
-³           ÃÄÄ ReportTracking.java      # Report download tracking
-³           ÃÄÄ sessioncounter.java      # Active session counter
-³           ÃÄÄ UploadServlet.java       # Annotated file upload servlet
-³           ÃÄÄ DownloadServlet.java     # Annotated file download servlet
-³           ÀÄÄ ...                # Additional utility servlets
-ÃÄÄ test/                         # Test sources
-ÀÄÄ web/                          # Web application root
-    ÃÄÄ index.jsp                 # Entry point / redirect
-    ÃÄÄ WEB-INF/
-    ³   ÃÄÄ web.xml               # Deployment descriptor (Servlet 3.1)
-    ³   ÀÄÄ glassfish-web.xml     # GlassFish-specific config
-    ÃÄÄ build/                    # Compiled CSS/JS (Gentelella)
-    ÃÄÄ images/                   # Application images (logos, backgrounds)
-    ÃÄÄ includes/                 # JSP includes (CSS, JS, auth layers)
-    ÃÄÄ vendors/                  # 69 frontend vendor libraries
-    ÀÄÄ views/
-        ÃÄÄ index.jsp             # Main app shell (sidebar, topnav, footer)
-        ÃÄÄ login.jsp             # LDAP login page
-        ÃÄÄ login_nonldap.jsp     # Non-LDAP login fallback
-        ÃÄÄ home.jsp              # Dashboard
-        ÃÄÄ upload_list.jsp       # Upload list table
-        ÃÄÄ maintenance.jsp       # Maintenance mode page
-        ÃÄÄ forget_password.jsp   # Password reset
-        ÀÄÄ module/               # Feature modules
-            ÃÄÄ leads_list_wizard_main.jsp    # CRM Leads wizard
-            ÃÄÄ json_dashboard/              # JSON data feeds
-            ÃÄÄ user/                        # User management
-            ÃÄÄ user_access/                 # User-group mapping
-            ÃÄÄ group/                       # Group management
-            ÃÄÄ group_access/                # Group permissions
-            ÃÄÄ divisi/                      # Division management
-            ÃÄÄ product/                     # Product management
-            ÃÄÄ acc/                         # Account management
-            ÀÄÄ upload/                      # Upload sub-pages
+ÃƒÃ„Ã„ build.xml                     # Ant build script
+ÃƒÃ„Ã„ .gitignore                    # Git ignore rules
+ÃƒÃ„Ã„ build/                        # Build output (compiled classes, generated)
+ÃƒÃ„Ã„ build_bkp/                    # Build backup
+ÃƒÃ„Ã„ dist/                         # Distribution (WAR output)
+ÃƒÃ„Ã„ jar/                          # Local JAR dependencies
+ÃƒÃ„Ã„ nbproject/                    # NetBeans project config
+Â³   ÃƒÃ„Ã„ project.properties        # Build properties
+Â³   ÃƒÃ„Ã„ project.xml               # NetBeans project descriptor
+Â³   Ã€Ã„Ã„ private/                  # IDE user settings (gitignored)
+ÃƒÃ„Ã„ setup/
+Â³   Ã€Ã„Ã„ sun-resources.xml         # GlassFish JDBC Connection Pool & JNDI config
+ÃƒÃ„Ã„ src/
+Â³   Ã€Ã„Ã„ java/
+Â³       ÃƒÃ„Ã„ Database/
+Â³       Â³   Ã€Ã„Ã„ Database.java     # Core DB connection (JNDI lookup)
+Â³       Ã€Ã„Ã„ Engines/
+Â³           ÃƒÃ„Ã„ auth.java         # Auth, params, maintenance, utilities
+Â³           ÃƒÃ„Ã„ ldapActiveDirectory.java  # LDAP authentication
+Â³           ÃƒÃ„Ã„ notification.java # In-app notifications
+Â³           ÃƒÃ„Ã„ ReportTracking.java      # Report download tracking
+Â³           ÃƒÃ„Ã„ sessioncounter.java      # Active session counter
+Â³           ÃƒÃ„Ã„ UploadServlet.java       # Annotated file upload servlet
+Â³           ÃƒÃ„Ã„ DownloadServlet.java     # Annotated file download servlet
+Â³           Ã€Ã„Ã„ ...                # Additional utility servlets
+ÃƒÃ„Ã„ test/                         # Test sources
+Ã€Ã„Ã„ web/                          # Web application root
+    ÃƒÃ„Ã„ index.jsp                 # Entry point / redirect
+    ÃƒÃ„Ã„ WEB-INF/
+    Â³   ÃƒÃ„Ã„ web.xml               # Deployment descriptor (Servlet 3.1)
+    Â³   Ã€Ã„Ã„ glassfish-web.xml     # GlassFish-specific config
+    ÃƒÃ„Ã„ build/                    # Compiled CSS/JS (Gentelella)
+    ÃƒÃ„Ã„ images/                   # Application images (logos, backgrounds)
+    ÃƒÃ„Ã„ includes/                 # JSP includes (CSS, JS, auth layers)
+    ÃƒÃ„Ã„ vendors/                  # 69 frontend vendor libraries
+    Ã€Ã„Ã„ views/
+        ÃƒÃ„Ã„ index.jsp             # Main app shell (sidebar, topnav, footer)
+        ÃƒÃ„Ã„ login.jsp             # LDAP login page
+        ÃƒÃ„Ã„ login_nonldap.jsp     # Non-LDAP login fallback
+        ÃƒÃ„Ã„ home.jsp              # Dashboard
+        ÃƒÃ„Ã„ upload_list.jsp       # Upload list table
+        ÃƒÃ„Ã„ maintenance.jsp       # Maintenance mode page
+        ÃƒÃ„Ã„ forget_password.jsp   # Password reset
+        Ã€Ã„Ã„ module/               # Feature modules
+            ÃƒÃ„Ã„ leads_list_wizard_main.jsp    # CRM Leads wizard
+            ÃƒÃ„Ã„ json_dashboard/              # JSON data feeds
+            ÃƒÃ„Ã„ user/                        # User management
+            ÃƒÃ„Ã„ user_access/                 # User-group mapping
+            ÃƒÃ„Ã„ group/                       # Group management
+            ÃƒÃ„Ã„ group_access/                # Group permissions
+            ÃƒÃ„Ã„ divisi/                      # Division management
+            ÃƒÃ„Ã„ product/                     # Product management
+            ÃƒÃ„Ã„ acc/                         # Account management
+            Ã€Ã„Ã„ upload/                      # Upload sub-pages
 ```
 
 ---
@@ -160,7 +160,7 @@ MR2_VIBE_V2/
 - **GlassFish 4.x** (Java EE 7 Web Profile)
 - **PostgreSQL** (dengan database `rptrack`)
 - **NetBeans IDE** (direkomendasikan 8.2 / 12.x+)
-- **Apache Ant** ò 1.6.5 (built-in NetBeans)
+- **Apache Ant** Ã² 1.6.5 (built-in NetBeans)
 - **Git** (untuk version control)
 
 ---
