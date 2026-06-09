@@ -298,7 +298,7 @@ auth au = new auth(v_clientIP);
 
                 <div>
                   <br /><br /><br />
-                  <p style="font-size:11px">© 2023 Bank Muamalat Corporation. Muamalat Report Reminder Application. All Rights Reserved. </p>
+                  <p style="font-size:11px">© 2026 Bank Muamalat Corporation. Muamalat Report Reminder Application. All Rights Reserved. </p>
                   <!--<p style="font-size:11px">© 2016 All Rights Reserved</p><p style="font-size:11px">The application and materials provided by Information Technology division and managed by Compliance division have the only purpose of helping users to upload document.</p><p style="font-size:11px">Privacy policy and Terms.</p>-->
 
                 </div>

@@ -328,8 +328,8 @@
             <nav>
 
             <!--<div class="nav toggle" style="width: 334px;" >-->
-            <div class="nav toggle" style="display: flex; align-items: center;">
-                <a id="menu_toggle" style="margin-right: 12px; flex-shrink: 0;"><i class="fa fa-bars"></i></a>
+            <div class="nav toggle" style="display: flex; align-items: center; padding-top: 0;">
+                <a id="menu_toggle" style="display: flex; align-items: center; margin-right: 12px; flex-shrink: 0;"><i class="fa fa-bars"></i></a>
                 <span style="font-size: 0.98em; font-family: Segoe UI; color: inherit; white-space: nowrap; display: inline-block; vertical-align: middle;"><b>MUAMALAT REPORT REMINDER APP</b> <small style="color:blueviolet">(Beta)</small></span>
             </div>
 
