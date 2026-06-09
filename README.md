@@ -238,7 +238,7 @@ Aplikasi MR2 memiliki **dua mode login** yang dibedakan berdasarkan environment:
 | **Production (Live)** | `login.jsp` | LDAP Active Directory (`10.55.60.223:389`) | Production - user Bank Muamalat |
 
 #### UAT (`login_nonldap.jsp`)
-- **URL:** `/MR2_VIBE_V2/` (default)
+- **URL:** `/MR2_VIBE_V2_UAT/` (default, context-root di glassfish-web.xml)
 - Autentikasi via tabel database `t_user`
 - Password di-hash dengan MD5
 - Cocok untuk development, testing, dan internal demo
