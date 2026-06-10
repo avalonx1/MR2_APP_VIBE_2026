@@ -50,7 +50,7 @@ public class Database {
         
         inCtx = new InitialContext();
         if ( dbid==1 ) {
-            dbname="MR2-APP";
+            dbname="MR2-APP-UAT";
         }else if ( dbid==2 ){
             dbname="DWHPRD.BMIDWH";
         }

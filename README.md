@@ -201,7 +201,7 @@ Gunakan file `setup/sun-resources.xml` sebagai referensi, atau buat manual via A
      - `user` = `rptrack`
      - `password` = `rptrack`
 3. **Resources  JDBC  JDBC Resources  New**
-   - JNDI Name: `MR2-APP`
+   - JNDI Name: `MR2-APP-UAT`
    - Pool Name: `mr2_pool_dev`
 
 > **Catatan:** Untuk production, ganti credentials dan host sesuai environment masing-masing.
